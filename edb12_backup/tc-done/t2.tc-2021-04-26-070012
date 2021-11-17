@@ -1,0 +1,21 @@
+# This is where you put inyour variables.
+
+
+runname=select-run1
+SCALE=1000
+runtime=300
+thread="180 200 200 220 240 260 280 300"
+smtlist="8"
+#smtlist="4"
+
+mode=select
+
+recreateinstance=yes
+recreateduringrun=yes
+warmup=no
+
+perf_stat=yes
+
+PGSQL=/usr/edb/as12/bin
+PGPORT=5444
+#cores=24
